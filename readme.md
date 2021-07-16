@@ -14,8 +14,8 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
 - Every field should have name attribute - ok
 - Every field should have label, which focuses input on label click
   - Please add `for` attribute for each <label> and `id` to the field (it is important for tests) - ok
-- Do not use tabs. Use 2 spaces for indentation
-- Most of the time you want each tag in new line
+- Do not use tabs. Use 2 spaces for indentation - ok
+- Most of the time you want each tag in new line 
 - Form should have different inputs with such types:
   - [ ] text - ok
   - [ ] number - ok
@@ -30,19 +30,19 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
 - Form should have textarea and select elements.
 - You should use every of this attribute at least one time
   - [ ] required - ok
-  - [ ] min
-  - [ ] max
+  - [ ] min - ok
+  - [ ] max - ok
   - [ ] minlength - ok
   - [ ] maxlength -ok 
-  - [ ] multiple
-- The number field should have default value: `12` and maximum value 100.
-- The email field should have placeholder value: `email@example.com`.
-- The text fields should have disabled autocomplete.
+  - [ ] multiple - ok
+- The number field should have default value: `12` and maximum value 100. - ok
+- The email field should have placeholder value: `email@example.com`. - ok
+- The text fields should have disabled autocomplete. - ok
 - Add a button which submits the form.
-- Add `onsubmit="onSubmit()"` attribute to `form` tag to show form value on submit
-- Vertical distance between inputs should be `10px`
-- Vertical distance between blocks with inputs should be `20px`
-- Any other styles should be browser default
+- Add `onsubmit="onSubmit()"` attribute to `form` tag to show form value on submit - ok
+- Vertical distance between inputs should be `10px` - ok
+- Vertical distance between blocks with inputs should be `20px` - ok
+- Any other styles should be browser default - ok
 
 ## Tips
 - You can group different input sections with [fieldset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset) tag
