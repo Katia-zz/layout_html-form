@@ -17,33 +17,35 @@
         <legend>Personal information</legend>
 
         <label for="surname">Surname:</label>
-        <input type="text" id="surname"
-        name="surname" autocomplete="off">
+        <input class="end" type="text"
+        id="surname" name="surname"
+        autocomplete="off">
         <br>
 
         <label for="name">Name:</label>
-        <input type="text" id="name"
-        name="name" autocomplete="off">
+        <input input class="end" type="text"
+        id="name" name="name"
+        autocomplete="off">
         <br>
 
         <label for="age">How old are You?</label>
-        <input type="number" id="age"
+        <input input class="end"
+        type="number" id="age"
         name="age" value="12"
         max="100" min="1"
         size="4">
         <br>
 
         <label for="birthday">Full date of birth:</label>
-        <input type="date" id="birthday"
+        <input input class="end"
+        type="date" id="birthday"
         name="birthday">
         <br>
 
-        <div class="end">
           <label for="terms">I accept the term of the agreement</label>
           <input type="checkbox" id="terms"
           name="terms">
           <br>
-        </div>
       </fieldset>
     </form>
     <form name="registration" onsubmit="onSubmit()">
