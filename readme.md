@@ -11,29 +11,29 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
 ![screenshot](./references/form-example.png)
 
 ## Notes
-- Every field should have name attribute
+- Every field should have name attribute - ok
 - Every field should have label, which focuses input on label click
-  - Please add `for` attribute for each <label> and `id` to the field (it is important for tests)
+  - Please add `for` attribute for each <label> and `id` to the field (it is important for tests) - ok
 - Do not use tabs. Use 2 spaces for indentation
 - Most of the time you want each tag in new line
 - Form should have different inputs with such types:
-  - [ ] text
-  - [ ] number
-  - [ ] email
-  - [ ] checkbox
-  - [ ] radio
-  - [ ] password
+  - [ ] text - ok
+  - [ ] number - ok
+  - [ ] email - ok
+  - [ ] checkbox - ok
+  - [ ] radio - ok
+  - [ ] password - ok
   - [ ] range
-  - [ ] time
-  - [ ] color
-  - [ ] date
+  - [ ] time - ok
+  - [ ] color - ok
+  - [ ] date - ok
 - Form should have textarea and select elements.
 - You should use every of this attribute at least one time
-  - [ ] required
+  - [ ] required - ok
   - [ ] min
   - [ ] max
-  - [ ] minlength
-  - [ ] maxlength
+  - [ ] minlength - ok
+  - [ ] maxlength -ok 
   - [ ] multiple
 - The number field should have default value: `12` and maximum value 100.
 - The email field should have placeholder value: `email@example.com`.

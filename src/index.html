@@ -13,7 +13,8 @@
   <body>
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    name="personal-information">
       <fieldset>
         <legend>Personal Information</legend>
 
@@ -31,28 +32,41 @@
 
           <label for="terms">I accept the term of the agreement </label>
           <input type="checkbox" id="terms" name="terms"><br>
-
       </fieldset>
     </form>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    name="registration">
       <fieldset>
         <legend>Registration</legend>
 
         <label for="email">E-mail: </label>
         <input type="email" id="email" name="email"
-        placeholder = "email@example.com"><br>
+        placeholder = "email@example.com" required><br>
         
         <label for="email">Passoword:</label>
-        <input type="password" id="password" name="password"><br>
-
+        <input type="password" id="password" name="password"
+        minlength="5" maxlength="10" required><br>
       </fieldset>
     </form>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    name="facts">
       <fieldset>
         <legend>An interesting fact about you!</legend>
+          <label>Do you love cats?</label>  
+            <input type="radio" id="yes" name="yes"> 
+            <label for="yes">Yes</label>    
+            <input type="radio" id="no" name="no"> 
+            <label for="yes">No</label><br>
+            
+            <label for="color">What is your favorite color?</label>
+            <input type="color" id="color" name="color" value="black"><br>
+
+            <label for="sleep-time">What time do you go to bed?</label>
+            <input type="time" id="sleep-time" name="sleep-time"><br>
       </fieldset>
     </form>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    name="additional">
       <fieldset>
         <legend>Additional info:</legend>
       </fieldset>
