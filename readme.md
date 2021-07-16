@@ -12,7 +12,7 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
 
 ## Notes
 - Every field should have name attribute - ok
-- Every field should have label, which focuses input on label click
+- Every field should have label, which focuses input on label click - ok
   - Please add `for` attribute for each <label> and `id` to the field (it is important for tests) - ok
 - Do not use tabs. Use 2 spaces for indentation - ok
 - Most of the time you want each tag in new line 
@@ -23,7 +23,7 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
   - [ ] checkbox - ok
   - [ ] radio - ok
   - [ ] password - ok
-  - [ ] range
+  - [ ] range - ok
   - [ ] time - ok
   - [ ] color - ok
   - [ ] date - ok

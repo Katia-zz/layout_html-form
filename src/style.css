@@ -4,9 +4,13 @@ fieldset {
 
 input {
   margin-left: 2px;
-  margin-bottom: 10px; 
   display: inline-block;
 }
-.mult-selection {
-  margin-bottom: 10px; 
+
+.selection {
+  margin-bottom: 10px;
+}
+
+.end {
+  margin-bottom: 10px;
 }
