@@ -1,3 +1,9 @@
 fieldset {
   margin-bottom: 20px;
 }
+
+input {
+  margin-left: 2px;
+  margin-bottom: 10px; 
+  display: inline-block;
+}
